@@ -9,27 +9,44 @@
     "email": "contact@jaredboggs.com",
     "url": "https://jaredboggs.com"
   },
-  "categories": ["Themes"],
-  "icon":"./images/rowboat.jpg",
+  "categories": [
+    "Themes"
+  ],
+  "icon": "./images/rowboat.jpg",
   "galleryBanner": {
     "color": "#293D31",
-    "theme":"dark"
+    "theme": "dark"
   },
-  "keywords": ["dark", "theme", "low-distraction", "color-theme", "omarchy", "color", "ocean", "sea", "blue", "green", "moody", "calm"],
+  "keywords": [
+    "dark",
+    "theme",
+    "low-distraction",
+    "color-theme",
+    "omarchy",
+    "color",
+    "ocean",
+    "sea",
+    "blue",
+    "green",
+    "moody",
+    "calm"
+  ],
   "engines": {
     "vscode": "^1.105.0"
   },
-  "license":"SEE LICENSE IN LICENSE.txt",
-  "pricing":"Free",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "pricing": "Free",
   "sponsor": {
-    "url":"https://ko-fi.com/jboggsdev"
+    "url": "https://ko-fi.com/jboggsdev"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jaredb1011/VSCode-Theme-Adrift.git"
   },
   "homepage": "https://github.com/jaredb1011/VSCode-Theme-Adrift/blob/master/README.md",
-  "extensionKind":["ui"],
+  "extensionKind": [
+    "ui"
+  ],
   "contributes": {
     "themes": [
       {
@@ -38,5 +55,8 @@
         "path": "./themes/Adrift-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "preinstall": "node preinstall.js"
   }
 }
